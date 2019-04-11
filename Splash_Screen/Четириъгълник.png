@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="250" height="220" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">              
+ <style type="text/css"><![CDATA[  
+      text {font: italic 1.2em "Times New Roman",serif}
+    ]]></style>
+  <clipPath id="clip1">
+    <polygon points="65,20 240,20 195,190 20,190" />
+  </clipPath>
+  <clipPath id="clip2">
+    <polygon points="110,20 110,190 200,190" />
+  </clipPath>
+  <clipPath id="clip3">
+    <polygon points="240,20 130,105 195,190" />
+  </clipPath>
+<!-- alfa --> 
+<defs>
+<g>
+<symbol overflow="visible" id="alfa">
+<path d='M9.60262 -5.24722C9.60262 -7.259 8.46192 -9.14634 6.26348 -9.14634C3.54654 -9.14634 0.8296 -6.18052 0.8296 -3.23544C0.8296 -1.43106 1.94956 0.2074 4.06504 0.2074C5.35092 0.2074 6.88568 -0.29036 8.35822 -1.53476C8.64858 -0.37332 9.29152 0.2074 10.1833 0.2074C11.3033 0.2074 11.8633 -0.95404 11.8633 -1.22366C11.8633 -1.41032 11.7181 -1.41032 11.6559 -1.41032C11.49 -1.41032 11.4692 -1.3481 11.407 -1.18218C11.2203 -0.66368 10.7433 -0.2074 10.2456 -0.2074C9.60262 -0.2074 9.60262 -1.53476 9.60262 -2.7999C11.7181 -5.33018 12.2159 -7.94342 12.2159 -7.96416C12.2159 -8.15082 12.0499 -8.15082 11.9877 -8.15082C11.8011 -8.15082 11.7803 -8.0886 11.6974 -7.71528C11.4277 -6.80272 10.8885 -5.185 9.60262 -3.48432V-5.24722ZM8.296 -2.03252C6.47088 -0.39406 4.83242 -0.2074 4.10652 -0.2074C2.63398 -0.2074 2.21918 -1.51402 2.21918 -2.4888C2.21918 -3.38062 2.67546 -5.4961 3.3184 -6.6368C4.16874 -8.0886 5.33018 -8.73154 6.26348 -8.73154C8.27526 -8.73154 8.27526 -6.09756 8.27526 -4.3554C8.27526 -3.8369 8.25452 -3.29766 8.25452 -2.77916C8.25452 -2.36436 8.27526 -2.26066 8.296 -2.03252Z' id='g0-11'/>
+</symbol>
+</g>
+</defs>
+<!-- popis bodu -->
+  <text x="20" y="205" text-anchor="middle">A</text>
+  <text x="195" y="205" text-anchor="middle">B</text>
+  <text x="240" y="16" text-anchor="middle">C</text>
+  <text x="65" y="16" text-anchor="middle">D</text>    
+<!-- popis stran -->
+  <text x="152" y="16" text-anchor="middle">a</text>
+  <text x="228" y="110" text-anchor="middle">a</text>
+  <text x="107" y="205" text-anchor="middle">a</text>
+  <text x="32" y="110" text-anchor="middle">a</text>
+<!-- popis --> uhlopricky>
+  <text fill="#1f3a93" x="60" y="145" text-anchor="middle">d</text>
+  <text fill="#1f3a93" x="68" y="150" text-anchor="middle" style="font-size:0.8em;font-style:normal">1</text>
+  <text fill="#1f3a93" x="170" y="145" text-anchor="middle">d</text>
+  <text fill="#1f3a93" x="178" y="150" text-anchor="middle" style="font-size:0.8em;font-style:normal">2</text>
+<!-- uhlopricky -->
+  <line x1="65" y1="20" x2="195" y2="190" stroke="#1f3a93" />       
+  <line x1="240" y1="20" x2="20" y2="190" stroke="#1f3a93"/>
+<!-- pravy uhel uhlopricek -->
+  <circle cx="130" cy="105" r="25" fill="none" stroke="#1f3a93"  clip-path="url(#clip3)" />
+  <circle cx="143" cy="107" r="1" fill="#1f3a93" />
+<!-- uhly -->
+  <circle cx="65" cy="20" r="30" fill="none" stroke="#cf000f" clip-path="url(#clip1)" />
+  <circle cx="240" cy="20" r="30" fill="none" stroke="#cf000f" clip-path="url(#clip1)" />
+  <circle cx="195" cy="190" r="30" fill="none" stroke="#cf000f" clip-path="url(#clip1)" />
+  <circle cx="20" cy="190" r="30" fill="none" stroke="#cf000f" clip-path="url(#clip1)" />
+<!-- popis uhlu -->
+<g style="fill:#cf000f;fill-opacity:1;" >
+  <use xlink:href="#alfa" x="62" y="36" />
+</g>
+<g style="fill:#cf000f;fill-opacity:1;" >
+  <use xlink:href="#alfa" x="213" y="36" />
+</g>
+<g style="fill:#cf000f;fill-opacity:1;" >
+  <use xlink:href="#alfa" x="173" y="181" />
+</g>
+<g style="fill:#cf000f;fill-opacity:1;" >
+  <use xlink:href="#alfa" x="25" y="181" />
+</g>
+  <text fill="#cf000f" x="78" y="42" text-anchor="middle" style="font-size:0.8em;font-style:normal">1</text>
+  <text fill="#cf000f" x="229" y="42" text-anchor="middle" style="font-size:0.8em;font-style:normal">2</text>
+  <text fill="#cf000f" x="188" y="187" text-anchor="middle" style="font-size:0.8em;font-style:normal">1</text>
+  <text fill="#cf000f" x="41" y="187" text-anchor="middle" style="font-size:0.8em;font-style:normal">2</text>
+<!-- vyska -->
+  <line x1="110" y1="20" x2="110" y2="190" stroke="#cf000f" />
+  <text fill="#cf000f" x="100" y="107" text-anchor="middle">h</text>
+<!-- pravy uhel vysky -->
+  <circle cx="110" cy="190" r="25" fill="none" stroke="#cf000f" clip-path="url(#clip2)" />
+  <circle cx="120" cy="180" r="1" fill="#cf000f" />
+<!-- kosoctverec -->
+  <polygon points="65,20 240,20 195,190 20,190" stroke="#000000" fill="none" stroke-width="2" />
+ </svg> 
